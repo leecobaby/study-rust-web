@@ -22,3 +22,7 @@ cargo run -p tcpserver
 # 启动 tcpclient
 cargo run -p tcpclient
 ```
+
+## HTTP Server Map
+
+- Server TCP -> HTTP Library -> HTTP Server -> HTTP Router -> HTTP Handler
